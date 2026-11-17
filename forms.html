@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
 
+    <h2>Student Registration Form</h2>
+
+    <form action="[submit_form.php]" method="POST">
+
+        
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" placeholder="[Enter full name]" required minlength="3"><br><br>
+
+        
+        <label for="emailAddress">Email Address:</label><br>
+        <input type="email" id="emailAddress" name="emailAddress" placeholder="[name@example.com]" required><br><br>
+
+        
+        <label for="mobileNumber">Mobile Number:</label><br>
+        <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="[10-digit mobile number]" pattern="[0-9]{10}" required><br><br>
+
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="[Min 6 characters]" required minlength="6"><br><br>
+
+        
+        <label for="dateOfBirth">Date of Birth:</label><br>
+        <input type="date" id="dateOfBirth" name="dateOfBirth" required><br><br>
+
+        
+        <label>Gender:</label><br>
+        <input type="radio" id="genderMale" name="gender" value="male" required>
+        <label for="genderMale">Male</label>
+        <input type="radio" id="genderFemale" name="gender" value="female">
+        <label for="genderFemale">Female</label><br><br>
+
+      
+        <label for="courseSelect">Select Course:</label><br>
+        <select id="courseSelect" name="courseSelect" required>
+            <option value="">--Select Course--</option>
+            <option value="cs-aiml">B.Tech CSE (AI & ML)</option>
+            <option value="cs-core">B.Tech CSE</option>
+        </select><br><br>
+
+      
+        <input type="checkbox" id="termsCheck" name="termsCheck" required>
+        <label for="termsCheck">I confirm that all provided details are correct.</label><br><br>
+
+        
+        <button type="submit">Register</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+
+</body>
+</html>

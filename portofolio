@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav singh rao- Portfolio</title>
+</head>
+<body>
+
+  
+    <header>
+        <h1>Vaibhav Singh Rao</h1>
+        <p>Email:vaibhavstudentaiuniversity</p>
+        <p>Location: Jaipur ,Rajasthan</p>
+    </header>
+
+    <hr>
+
+    
+    <section>
+        <h2>Career Objective</h2>
+        <p>To secure a challenging position in [Computer Science / AI & ML] where I can apply my web development skills to build efficient, scalable software solutions.</p>
+    </section>
+
+    
+    <section>
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>B.Tech in Computer Science (AI & ML)</strong><br>
+                Jaganath University, [2026 - 2030]
+            </li>
+        </ul>
+    </section>
+    
+    
+    <section>
+        <h2>Projects</h2>
+        <article>
+            <h3>Personal Portfolio Website</h3>
+            <p>Designed and developed a personal resume webpage using HTML5 semantic elements to showcase academic and technical background.</p>
+        </article>
+    </section>
+
+    
+    <footer>
+        <h2>Contact Details</h2>
+        <ul>
+            <li>GitHub: vaibhavstudentaiuniversityxxx</li>
+            <li>Email: vaibhavstudentaiuniversity@gmail.com</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
